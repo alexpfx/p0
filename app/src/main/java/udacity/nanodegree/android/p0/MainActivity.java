@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
+            Log.d(TAG, "onClick: " + v);
             CharSequence projecdtName = ((Button) v).getText();
             Toast.makeText(MainActivity.this, "This button will launch " + projecdtName + " app", Toast.LENGTH_SHORT).show();
-            Log.d(TAG, "onClick: " + v);
         }
     };
 
