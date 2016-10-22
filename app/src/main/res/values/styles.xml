@@ -10,6 +10,8 @@
 
     <style name="button_style">
         <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/project_button_width</item>
+        <item name="android:layout_height">@dimen/project_button_height</item>
         <item name="android:background">@color/backgroundButton</item>
         <item name="android:textColor">#fff</item>
         <item name="android:layout_margin">2dp</item>
